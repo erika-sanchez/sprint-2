@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+}
+body{
+background-color: azure;
+}
+header{
+    height: 15vh;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:  nowrap;
+    /* align-items: start; */
+}
+
+main{
+    min-height: 65vh;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+footer{
+    height: 10vh;
+    margin: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+img{
+    width: 100%;
+    
+}
+.caja-menu{
+    display: flex;
+    flex: auto;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+nav>a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 11px;
+}
+nav a:hover{
+    background-color: aquamarine;
+    color: blueviolet;
+}
+.caja-logo{
+    display: flex;
+    width: 11rem;
+    justify-content: flex-end;
+}
+.titulo-principal{
+    display: flex;
+    justify-content: flex-start;
+    font-family: encode-sans;
+}
+.img-plane{
+    display: flex;
+    justify-content: center;
+}
+.img-plane img{
+    height: 30rem;
+}
+.texto-home{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.texto-home img{
+    width: 30rem;
+}
+.texto-home p{
+    align-self: center;
+    width: 25rem;
+}
+.main-aboutus{
+    display: flex;
+    flex-direction: column;
+}
+.main-aboutus h2{
+    text-align: center;
+}
+.window{
+    display: flex;
+    align-items: center;
+}
+.window img{
+    height: 30rem;
+    width: 41rem;
+    padding: 1rem;
+}
+.image{
+    display: flex;
+    align-items: center;
+}
+.image img{
+    height: 30rem;
+    width: 41rem;
+    padding: 1rem;
+}
+.picture{
+    display: flex;
+    align-items: center;
+}
+.picture img{
+    height: 30rem;
+    width: 41rem;
+    padding: 1rem;
+}
+.main-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-contact h2{
+    text-align: center;
+}
+.main-contact img{
+    width: 40rem;
+    margin: 1rem;
+}
+.h2information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+table{
+    height: 35rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+.h2benefits{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cajabenefits{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+.cajabenefits img{
+    height: 35rem;
+    width: 40rem;
+}
+.lista1{
+    /* display: flex; */
+    margin: 1rem;
+    
+}
+.lista2{
+margin: 1rem;
+}
+footer a{
+    text-decoration: none;
+}
+.footer-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.footerabout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.footercontact{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+}
+footer p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerinformation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.footerbenefits{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.imagenlista{
+    list-style-type: none;
+}
+.liuno{
+    list-style-type: none;
+}
