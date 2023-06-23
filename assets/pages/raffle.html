@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../imagenes/icon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="caja-menu">
+            <nav class="nav">
+                <a href="../../index.html">Home</a>
+                <a href="../pages/aboutUs.html">About Us</a>
+                <a href="../pages/contact.html">Contact</a>
+                <a href="../pages/information.html">More Information</a>
+                <a href="../pages/benefits-Tips.html">Benefits and Tips </a>
+                <a href="#">raffle</a>
+            </nav>
+            <div class="caja-logo">
+                <img src="../imagenes/logo.png" alt="logo">
+            </div>
+        </div>
+        <div class="titulo-principal"><h1> More Information</h1></div>
+    </header>
+    <section class="h2raffle">
+            <h2>you can collaborate and participate in a raffle for a 1-week trip.</h2>
+    </section>
+    <main class="mainraffle">
+
+        <form action="../Data/show_data.html" method="get">
+            <fieldset class="personal-date">
+                <label for="FName">Firts Name</label>
+                <input type="text" id="FName" name="Username" placeholder="name">
+                <label for="LName">Last Name</label>
+                <input type="text" id="LName" name="user-last-name" placeholder="last name">
+                <label for="email">e-Mail</label>
+                <input type="email" id="email" name="e-mail" placeholder="exmple: your@e-mail.com">
+            </fieldset>
+            <fieldset class="select">
+                <label for="Country">Choose Country</label>
+                <select name="Country" id="Country">
+                    <option value=" ">--select an option--</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Venezuela">Venezuela </option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Perú">Perú</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Ecuador">Ecuador</option>
+                </select>
+            </fieldset>
+            <fieldset class="date">
+                <label for="Date">Choose Date</label>
+                <input type="date" id="Date" name="Date">
+            </fieldset>
+            <fieldset class="radio">
+                <legend>Payment Options</legend>
+                <div>
+                <input type="radio" id="C" name="Payment" value="C">
+                <label for="C">Cash</label>
+                </div>
+                <div>
+                    <input type="radio" name="Payment" id="CC" value="CC">
+                    <label for="CC">Credit Card</label>
+                </div>
+                <div>
+                    <input type="radio" id="DC" name="Payment" value="DC">
+                    <label for="DC">Debit Card</label>
+                </div>
+            </fieldset>
+            <fieldset class="end">
+            <div>
+                <input type="checkbox" id="cbox2" value="second_checkbox" >  
+                <label for="cbox2"> Terminos y condiciones </label> 
+            </div>
+            <div class="send">
+                <input type="submit" value="send">
+            </div>
+                
+            </fieldset>
+        </form>
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184551.90977246096!2d-79.54286616172062!3d43.718370958132326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20Ontario%2C%20Canad%C3%A1!5e0!3m2!1ses!2sco!4v1687493829291!5m2!1ses!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </main>
+    <footer>
+        <p class="footerraffle">created by: erika sanchez 
+        </p>
+    </footer>
+</body>
+</html>
